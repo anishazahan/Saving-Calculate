@@ -1,9 +1,15 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster+Two:ital@1&family=Poppins:wght@500&family=Roboto:wght@500&family=Rokkitt&display=swap");
+
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
 }
 :root{
     --color:#125C13;
@@ -25,3 +31,14 @@
     position: absolute;
     border-bottom: 2px solid var(--color);
 }
+
+.error {
+    display: none;
+    font-size: 13px;
+  }
+  .btn {
+    background-color: var(--color);
+  }
+  .secondary-color {
+    color: var(--color);
+  }
